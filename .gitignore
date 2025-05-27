@@ -46,4 +46,5 @@ bin/
 
 ### SQLite ###
 todos.db
+test.db
 
