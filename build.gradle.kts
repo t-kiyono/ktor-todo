@@ -29,6 +29,10 @@ dependencies {
   // Serialization
   implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
 
+  // --- Ktor テスト関連 ---
+  testImplementation("io.ktor:ktor-server-tests:2.3.2")
+  testImplementation("io.ktor:ktor-client-content-negotiation:2.3.2")
+
   // Kotest テストフレームワーク
   testImplementation("io.kotest:kotest-runner-junit5:5.8.0")
   testImplementation("io.kotest:kotest-assertions-core:5.8.0")
