@@ -29,6 +29,9 @@ dependencies {
   // Serialization
   implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
 
+  // Logging
+  implementation("ch.qos.logback:logback-classic:1.5.18")
+
   // --- Ktor テスト関連 ---
   testImplementation("io.ktor:ktor-server-tests:2.3.2")
   testImplementation("io.ktor:ktor-client-content-negotiation:2.3.2")
